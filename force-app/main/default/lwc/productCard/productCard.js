@@ -68,7 +68,7 @@ export default class ProductCard extends NavigationMixin(LightningElement) {
         this.productPictureUrl = getFieldValue(recordData, PICTURE_URL_FIELD);
     }
 
-    /**
+    /***
      * Handler for when a product is selected. When `this.recordId` changes, the
      * lightning-record-view-form component will detect the change and provision new data.
      */
